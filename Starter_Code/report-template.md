@@ -4,17 +4,28 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
+Explain the purpose of the analysis.
+
 The purpose of this analysis is to find a model that can help predict whether a loan will be healthy or high-risk.
 
-* Explain what financial information the data was on, and what you needed to predict.
+----------------------------------------------------------------------------------------------------------------------
+Explain what financial information the data was on, and what you needed to predict.
+
 The financial data included important variables to consisder like Income, debt-to-income loan size and total debt. With another model we can use the the weighted features function to find how much each variable contributed to a loan being healty or not.
 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+----------------------------------------------------------------------------------------------------------------------
+Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+ 
 At face value the information provided by the variables are pretty straight forward. Income refers to the amount that the person applying for the loan has declared, and loan size is how much the person is asking to borrow. Loan status is very important to our model because it becomes the target variable. 
-* Describe the stages of the machine learning process you went through as part of this analysis.
+
+----------------------------------------------------------------------------------------------------------------------
+Describe the stages of the machine learning process you went through as part of this analysis.
+
 Broadly speaking I first read in the data and got a sense of the data, I next identified the target variable and seperated it from the rest of the data. From there I used the train test split to begin the machine learning progress. Once fitted, predicted and scored I found some very good results.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+
+----------------------------------------------------------------------------------------------------------------------
+Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+
 The LogisticRegression model works very good for our purpose here because we are ultimately looking a yes or no. 
 ## Results
 
